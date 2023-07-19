@@ -92,6 +92,152 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+/*------------------------------------------------------------ Header----------------------------------------------------- */
+
+
+
+.bg-image{
+    background-image: url('images/14.png');
+    width: 901px;
+height: 700px;
+flex-shrink: 0;
+}
+
+
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: ;
+    
+}
+
+
+
+.goat-img{
+    padding-right: 231px;
+}
+
+
+.header-title-1{
+    color: #0B0223;
+    text-align: center;
+    
+    font-size: 48px;
+   
+    font-weight: 600;
+    
+    text-transform: uppercase;
+    margin-top: 148px;
+}
+
+
+.header-title-2{
+    text-align: center;
+
+font-size: 95px;
+
+font-weight: 800;
+
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+.mini-title{
+    color: #534C64;
+text-align:left;
+font-size: 20px;
+font-weight: 500;
+text-transform: lowercase;
+margin-left: 280px;
+}
+
+.one{
+    margin-top: 24px;
+}
+
+.two{
+    margin-top:17px;
+}
+
+.three{
+    margin-top:17px;
+}
+.btn-1{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+border: none;
+
+margin-left: 280px;
+margin-top:41px;
+}
+
+.btn-2{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+
+border-radius: 48px;
+background: #4EC5F7;
+
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+border: none;
+
+margin-left:1.2rem;
+margin-top:41px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ----------------------------------------------Mobile_size---------------------- */
 
@@ -125,6 +271,20 @@ line-height: normal;
         margin-right: 10px;
         
     }
+
+    header{
+        flex-direction: column-reverse;
+    }
+    .goat-img{
+        margin-top: 150px;
+       width: 600px;
+       padding-right:0px;
+       margin: 0 auto;
+    }
+.bg-image{
+    margin:: 10px;
+}
+
 }
 
 
@@ -148,4 +308,25 @@ line-height: normal;
    .game{
     margin-left: 10px;
    }
+   header{
+    flex-direction: column-reverse;
+}
+.bg-image{
+    
+    width:650px;
+}
+
+.goat-img{
+    margin-top: 150px;
+   width: 600px;
+   padding-right:0px;
+   margin: 0 auto;
+}
+
+.mini-title{
+    margin-left: 160px;
+}
+.btn-1{
+    margin-left: 165px;
+}
 }
