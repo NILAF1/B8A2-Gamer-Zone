@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+
+.nav-box {
+    width: 262px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+    
+}
+
+nav div a{
+    text-decoration: none;
+}
+
+.follow{
+    color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding:17px 0px 18px 24px;
+}
+.yt {
+    width: 34px;
+    height: 24px;
+    padding: 16px 0px 16px 24px;
+    
+}
+
+.tik {
+    width: 24px;
+    height: 24px;
+   padding: 16px 24px 16px 16px;
+}
+
+.nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 1920px;
+    height: 130px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    margin-left: 240px;
+    
+}
+
+.game{
+    
+font-size: 45px;
+font-weight: 700;
+margin-left: 20px;
+
+}
+
+.g-color{
+    color: #FF42A5;
+}
+.nav-2 {
+    display: flex;
+    align-items: center;
+    margin-right: 240px;
+}
+
+.Developers, .About-Us{
+    margin-right: 32px;
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* ----------------------------------------------Mobile_size---------------------- */
+
+
+@media screen and (max-width: 425px) {
+
+.nav{
+    flex-direction: column;
+    width: 0px;
+    margin-top: 50px;
+}
+
+.nav-1{
+    margin-left: 410px;
+}
+    .nav-2{
+        flex-direction: column;
+        margin-left: 650px;
+        margin-top: 40px;
+    }
+.About-Us{
+    margin-left: 10px;
+}
+    .Developers{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .nav-box{
+        margin-top: 10px;
+        margin-right: 10px;
+        
+    }
+}
+
+
+/* ------------------------------------------Table_Size-------------------- */
+
+@media screen and (min-width:426px) and (max-width:768px){
+    .nav-1{
+        margin-left:10px
+    }
+
+    .nav-2{
+        margin-right: 10px;
+    }
+    .nav{
+        justify-content:space-around;
+        width: 765px
+    }
+   .nav-box{
+    width: 200px;
+   }
+   .game{
+    margin-left: 10px;
+   }
+}
