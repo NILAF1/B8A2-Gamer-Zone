@@ -366,9 +366,9 @@ margin-top: 24px;
 
 
 
+/* --------------------------------------------------------------------Button_Section------------------------------------- */
 
-
-
+/* ----------------------------------------------------------------------------Button_Upor_Section */
 
 
 
@@ -455,6 +455,44 @@ padding: 29px 20px 28px 0px;
 .button-uper-line:hover{
     color: #F948B2;
 }
+
+
+
+/* --------------------------------------------------------Button_down_section------------------------------------------------ */
+
+
+.btn8{
+    width: 299px;
+    height: 80px;
+    
+}
+
+.btn9{
+    width: 320px;
+height: 80px;
+    
+}
+
+.btn10{
+    width: 244px;
+    height: 80px;
+    
+}
+
+.btn11{
+    width: 262px;
+    height: 80px;
+}
+
+.btn-down-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 28px;
+}
+
+
 
 /* ----------------------------------------------Mobile_size---------------------- */
 
